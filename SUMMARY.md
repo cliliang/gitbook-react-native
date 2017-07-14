@@ -2,5 +2,5 @@
 
 * [Introduction](README.md)
 * [Environment](chapter1.md)
-* [Style](style.md)
+* [Flexbox](style.md)
 
