@@ -22,6 +22,9 @@ brew cleanup
 进行静态语法检查，自动补全
 ## 项目的React-Native版本升级
 在项目目录下命令`react-native-git-upgrade`
+## npm
+npm是随NodeJS一起安装的，用于NodeJS的代码部署
+
 
 
 
