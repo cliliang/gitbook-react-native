@@ -24,6 +24,7 @@ brew cleanup
 在项目目录下命令`react-native-git-upgrade`
 ## npm
 npm是随NodeJS一起安装的，用于NodeJS的代码部署
+`npm -v`
 
 
 
