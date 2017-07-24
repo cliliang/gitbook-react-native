@@ -26,7 +26,7 @@ brew cleanup
 npm是随NodeJS一起安装的，用于NodeJS的代码部署
 `npm -v`
 ## webStorm
-IDE推荐使用WebStorm，在webStorm中[配置运](http://blog.csdn.net/superbiglw/article/details/54088093)环境
+IDE推荐使用WebStorm，在webStorm中[配置运行环境](http://blog.csdn.net/superbiglw/article/details/54088093)环境
 
 
 
