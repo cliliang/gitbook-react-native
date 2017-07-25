@@ -1,9 +1,6 @@
----
-the: hose
-tag: mouse
----
 
-rn的所有布局[样式属性](http://reactnative.cn/docs/0.46/layout-props.html)一览
+
+## rn的所有布局[样式属性](http://reactnative.cn/docs/0.46/layout-props.html)一览
 
 ## 使用Flexbox布局
 
