@@ -22,6 +22,7 @@
 
 # 作用在子控件上样式
 * `alignSelf enum('auto', 'flex-start', 'flex-end', 'center', 'stretch') `决定了元素在父元素的次轴方向的排列方式（此样式设置在子元素上），其值会覆盖父元素的`alignItems`的值。
+* `borderWidth`控件边框的宽度，具体的还有`borderLeftWidth`,`borderTopWidth`,`borderRightWidth`,`borderBottomWidth`。
 
 
 
