@@ -27,6 +27,17 @@ npm是随NodeJS一起安装的，用于NodeJS的代码部署
 `npm -v`
 ## webStorm
 IDE推荐使用WebStorm，在webStorm中[配置运行环境](http://blog.csdn.net/superbiglw/article/details/54088093)环境
+## ios无法启动
+当出现react-native版本的问题。无法运行ios时，可以将
+测试版本：
+"react": "16.0.0-alpha.12",
+"react-native": "0.45.0"
+
+切换成下面的版本就可以了：
+"react": "16.0.0-alpha.6",
+"react-native": "0.44.3"
+
+具体操作：删除node-modules文件夹，修改pakage.json文件，然后执行 `npm install` 。
 
 
 

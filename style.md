@@ -2,7 +2,7 @@
 
 ## RN的所有[style样式属性](http://reactnative.cn/docs/0.46/layout-props.html)一览
 
-## 作用在父控件上样式Flexbox布局
+## 作用在父控件上Flexbox布局
 
 在React Native中使用flexbox规则来指定某个组件的子元素的布局。Flexbox可以在不同屏幕尺寸上提供一致的布局结构。一般来说，使用`flexDirection`、`alignItems`和`justifyContent`三个样式属性就已经能满足大多数布局需求。
 * __flex__
@@ -23,7 +23,7 @@
 
 > 注意：要使stretch选项生效的话，子元素在次轴方向上不能有固定的尺寸。以下面的代码为例：只有将子元素样式中的`width: 50`去掉之后，`alignItems: 'stretch'`才能生效。
 
-## 作用在子控件上样式
+## 作用在子控件上
 * __alignSelf__
 
 `enum('auto', 'flex-start', 'flex-end', 'center', 'stretch') `决定了元素在父元素的次轴方向的排列方式（此样式设置在子元素上），其值会覆盖父元素的`alignItems`的值。
