@@ -1,6 +1,6 @@
 1、[react-navigation](https://reactnavigation.org/)官方主页。
 
-2、react-navigation库的安装：`yarn add react-navigation`，
+## react-navigation库的安装：`yarn add react-navigation`，
 在项目中导入:
 ```js
 import {
@@ -8,7 +8,7 @@ import {
 } from 'react-navigation'
 ```
 
-3、StackNavigator的定义
+## StackNavigator的定义
 ```js
 const App = StackNavigator({
     //定义RouteConfigs
@@ -74,3 +74,17 @@ const App = StackNavigator({
     
 });
 ```
+## Screen Navigation Prop
+每个界面都会有一个`navigation` prop，包含以下内容：
+* `navigate`:方法，界面跳转
+* `state`:界面状态和路由
+* `setParams`:方法，改变router params
+* `goBack`:方法，返回上个界面
+* `dispatch`:向router发送一个action
+
+__navigate__:
+用于界面跳转navigate(`routerName`, `params`, `action`)。
+__state__:
+每个界面都可以通过`this.prop.navigation.state`来访问它的router，返回一个对象
+
+

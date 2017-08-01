@@ -3,5 +3,5 @@
 * [Introduction](README.md)
 * [Environment](chapter1.md)
 * [StyleCss](style.md)
-* [Navigation](navigator.md)
+* [react-navigation](navigator.md)
 
