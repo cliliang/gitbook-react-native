@@ -2,7 +2,7 @@
 
 2、react-navigation库的安装：`yarn add react-navigation`，
 在项目中导入:
-```jsx
+```js
 import {
     StackNavigator
 } from 'react-navigation'
