@@ -85,6 +85,6 @@ const App = StackNavigator({
 __navigate__:
 用于界面跳转navigate(`routerName`, `params`, `action`)。
 __state__:
-每个界面都可以通过`this.prop.navigation.state`来访问它的router，返回一个对象
+每个界面都可以通过`this.prop.navigation.state`来访问它的router，返回一个对象。
 
 
